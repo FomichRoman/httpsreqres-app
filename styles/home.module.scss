@@ -1,0 +1,21 @@
+.btn_more {
+  display: flex;
+  align-items: center;
+  padding: 9px 16px;
+  color: #151317;
+  background-color: inherit;
+  border: 1px solid #151317;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.19%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(230, 230, 230);
+  }
+
+  span {
+    margin-right: 5px;
+  }
+}

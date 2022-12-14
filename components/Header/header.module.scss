@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 65px 0;
+  width: 100%;
+  background-color: #512689;
+
+  .gohome {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    padding: 8px 16px;
+    border: 1px solid #f8f8f8;
+    border-radius: 8px;
+    color: #f8f8f8;
+    background-color: inherit;
+
+    .mobile {
+      display: none;
+    }
+  }
+
+  .user_wrap {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-bottom: -20px;
+    margin-top: -20px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    img {
+      margin-right: 32px;
+      border-radius: 100%;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #ffffff;
+  }
+
+  p {
+    margin: 0;
+    max-width: 846px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #f8f8f8;
+  }
+
+  .exit {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    padding: 8px 16px;
+    border: 1px solid #f8f8f8;
+    border-radius: 8px;
+    color: #f8f8f8;
+    background-color: inherit;
+
+    .mobile {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    h1 {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 42px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    .user_wrap {
+      flex-direction: column-reverse;
+      justify-content: center;
+      padding-top: 25px;
+      padding-bottom: 25px;
+
+      div {
+        align-items: center;
+      }
+
+      img {
+        margin-right: 0;
+      }
+    }
+
+    .gohome {
+      border: none;
+      top: 28px;
+      left: 25px;
+
+      .desctop {
+        display: none;
+      }
+
+      .mobile {
+        display: inline-block;
+      }
+    }
+
+    .exit {
+      border: none;
+      right: 25px;
+
+      .desctop {
+        display: none;
+      }
+
+      .mobile {
+        display: inline-block;
+      }
+    }
+  }
+}
