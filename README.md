@@ -1,4 +1,4 @@
-Клон приложения https://reqres.in
+Интерфейс приложения reqres.in
 
 Стек технолгий -> Next, Redux, Redux Thunk
 
